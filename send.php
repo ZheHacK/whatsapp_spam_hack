@@ -1,6 +1,6 @@
 <?php
-echo "COPYRIGHT : linux\n\n";
-echo "Nomor korban?\nInput : ";
+echo "COPYRIGHT : SGB TEAM\n\n";
+echo "Nomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);
@@ -52,3 +52,4 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
 	$asw = curl_exec($ch);
 	curl_close($ch);
 	print $a.$nomer." [Sending]\n";
+}
