@@ -1,10 +1,7 @@
 
- \ \   / (_)_ __ _   _ ___    
-  \ \ / /| | '__| | | / __|     
-   \ V / | | |  | |_| \__ \      
-    \_/  |_|_|   \__,_|___/   (By Prince Yasin)
 
-Copy full text and send to victim
+
+KIRIM KE KORBAN 
 
 
 
