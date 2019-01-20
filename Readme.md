@@ -1,5 +1,4 @@
-cd ha
-ckwa
+
 chmod +x hackwa.php
 
 php hackwa.php
